@@ -11,8 +11,8 @@ $(document).ready(function() {
 
     $("#startButton").click(function() {
 
-        
-        
+        $("#startButton").prop("disabled", "true");
+        $("#startButton").fadeTo( "fast", 0.50 );
         (function() {
             var countDown = 31;
 
