@@ -14,7 +14,7 @@ $(document).ready(function() {
         $("#startButton").prop("disabled", "true");
         $("#startButton").fadeTo( "fast", 0.50 );
         (function() {
-            var countDown = 31;
+            var countDown = 30;
 
             setInterval(function() {
                 countDown--;
@@ -24,11 +24,19 @@ $(document).ready(function() {
                 }
                 if (countDown === 0) {
                     clearInterval(countDown);
+                    // set alert when time runs out. replace this with a change to the question section to show final stats.
+                    alert("Time's Up!");
                 }
 
             }, 1000);
 
         })();
+
+
+
+
+
+       
 
     });
 

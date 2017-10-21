@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trivia</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <label>What is your favorite color?</label>
+        <div class="radio">
+            <label>
+                <input type="radio" value="a" name="q1" />Blue</label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" value="b" name="q1" />Red</label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" value="c" name="q1" />I don't know</label>
+        </div>
+        <label>What is your favorite guitar?</label>
+        <div class="radio">
+            <label>
+                <input type="radio" value="a" name="q2" />Fender</label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" value="b" name="q2" />Gibson</label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" value="c" name="q2" />I don't know</label>
+        </div>
+        <label>What is your favorite airline?</label>
+        <div class="radio">
+            <label>
+                <input type="radio" value="a" name="q3" />JetBlue</label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" value="b" name="q3" />Southwest</label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" value="c" name="q3" />I don't know</label>
+        </div>
+        <button id="submit" class="btn btn-primary">submit</button>
+    </form>
+    <script type="text/javascript">
+    $(document).ready(function() {
+                $("#submit").on("click"), function(e) {
+                        e.preventDefault();
+                        var userAnsers = [];
+                        var numQuestions = 3;
+                        for(var i = 0; i < numQuestions; i++) {
+                        	
+                        	//inser from slack
+
+    }
+if(answers[0] === userAnsers[0]) {
+	alert("FIRST ONE IS CORRECT")
+}
+
+                    }
+    </script>
+</body>
+
+</html>
