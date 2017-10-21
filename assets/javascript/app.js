@@ -32,7 +32,13 @@ $(document).ready(function() {
 
     });
 
+// write code to look at .click event for all question buttons and increase correctAnswers and incorrectAnswers for each answer.
+// first .click event for questionButtons
 
+
+// jQuery .prop for buttons once selected -- do I need a new class for each question set of buttons?
+
+// 
 
 
 
