@@ -1,5 +1,39 @@
-* {
+* {	
+
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #070707;
+
 }
 
+body {
+	background-color: #7d8ca3;
+	background-image: url('../images/logoBg.png');
+}
+
+
+.jumboTitle {
+	color: #edeeef;
+}
+
+.jumbotron {
+background-color: #070707;
+background-size: cover;
+height: 100%;
+}
+
+h1 {
+	color: #edeeef;
+}
+
+
+.panel-heading {
+	background-color: #070707;
+	border-color: #070707;
+	color: #edeeef;
+}
+
+#quiz {
+	height: 800px; 
+  overflow-y: scroll; 
+}
 

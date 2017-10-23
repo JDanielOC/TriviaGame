@@ -14,13 +14,14 @@
         <!-- Trivia Header -->
         <div class="jumbotron">
             <div class="container">
-                <h1 class="text-container text-center"><strong>Just the Facts</strong></h1>
+                <h1 class="text-container text-center"><span class="jumboTitle">Guinness World Records</span></h1>
             </div>
         </div>
         <!-- main content -->
         <div class="row">
+        <!-- Start Button -->
             <div class="col-sm-3">
-                <div class="panel panel-primary">
+                <div class="panel">
                     <div class="panel-heading">
                         <h3 class="panel-title text-center">Click to Play</h3>
                     </div>
@@ -30,73 +31,42 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="panel panel-primary">
+                <div class="panel">
                     <div class="panel-heading">
-                        <h3 class="panel-title text-center">Instructions</h3>
+                        <h3 class="panel-title text-center">Incredible! &nbsp; &nbsp; Crazy! &nbsp; &nbsp; Nonsense!</h3>
                     </div>
                     <div class="panel-body text-center">
-                        <h3>True or False?
-                        </h3>
+                        <p> Guinness World Records have been called many things, but none of them false. Here are some amazing claims. Do you know which are true and which are false? Take the quiz!
+                        </p>
                     </div>
                 </div>
             </div>
+        <!-- timer -->
             <div class="col-sm-3">
-                <div class="panel panel-primary">
+                <div class="panel">
                     <div class="panel-heading">
                         <h3 class="panel-title text-center">Time Left</h3>
                     </div>
                     <div class="panel-body text-center">
-                    	<h3 id="count">30</h3>
-                        
+                        <h3 id="count">120</h3>
                     </div>
                 </div>
             </div>
         </div>
-        <div class ="questionsContainer">
         <div class="row">
             <div class="col-sm-12">
-                <div class="panel panel-primary">
+                <div class="panel" id="quiz">
                     <div class="panel-heading">
                         <h3 class="panel-title text-center">True or False?</h3>
                     </div>
-                    <div class="panel-body text-center">
-                        <p>It is illegal to wear headsets that cover both ears <!-- true -->
-                        </p>
-                        <div>
-                            <button id="q1True" >True</button>
-                            <button id="q1False">False</button>
-                        </div>
-                    </div>
-                    <div class="panel-body text-center">
-                        <p>The number one cause of traffic fatalities is alcohol-related collisions <!-- true -->
-                        </p>
-                        <div>
-                            <button id="q2True">True</button>
-                            <button id="q2False">False</button>
-                        </div>
-                    </div>
-                    <div class="panel-body text-center">
-                        <p>A DUI conviction will cost you up to $250 <!-- false -->
-                        </p>
-                        <div>
-                            <button id="q3True">True</button>
-                            <button id="q3False">False</button>
-                        </div>
-                    </div>
-                    <div class="panel-body text-center">
-                        <p>Drivers must yield the right of way to any construction vehicle displaying yellow oscillating, rotating, or flashing lights <!-- true -->
-                        </p>
-                        <div>
-                            <button id="q4True">True</button>
-                            <button id="q4False">False</button>
-                        </div>
-                    </div>
-                    <div class="panel-body text-center">
-                        <p>You should slam on the brakes immediately when you sense you are hydroplaning  <!-- false -->
-                        </p>
-                        <div>
-                            <button id="q5True">True</button>
-                            <button id="q5False">False</button>
+        <!-- questions-->
+                    <div class="text-center">
+                        <div class="panel-body text-center">
+                            <h4 id="questions">question</h4>
+                            <div>
+                                <button id="q1True">True</button>
+                                <button id="q1False">False</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -107,7 +77,7 @@
         <!-- JavaScript script -->
         <script src="./assets/javascript/app.js"></script>
     </div>
-</div>
 </body>
 
 </html>
+
