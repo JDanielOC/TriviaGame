@@ -1,39 +1,37 @@
-* {	
+* {
 
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #070707;
-
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #070707;
 }
 
 body {
-	background-color: #7d8ca3;
-	background-image: url('../images/logoBg.png');
+    background-color: #7d8ca3;
+    background-image: url('../images/logoBg.png');
 }
 
 
 .jumboTitle {
-	color: #edeeef;
+    color: #edeeef;
 }
 
 .jumbotron {
-background-color: #070707;
-background-size: cover;
-height: 100%;
-}
+    margin-top: 20px;
+    background-color: #070707;
+    /*background-image: url("../images/guinness.jpg");*/
 
+}
 h1 {
-	color: #edeeef;
+    color: #edeeef;
 }
 
 
 .panel-heading {
-	background-color: #070707;
-	border-color: #070707;
-	color: #edeeef;
+    background-color: #070707;
+    border-color: #070707;
+    color: #edeeef;
 }
 
 #quiz {
-	height: 800px; 
-  overflow-y: scroll; 
+    height: 800px;
+    overflow-y: scroll;
 }
-
