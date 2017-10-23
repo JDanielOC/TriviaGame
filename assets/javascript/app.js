@@ -5,6 +5,8 @@
 // include a countdown timer with a start timer (quiz) button.
 
 
+//obviously a lot needs to be done here and I've got a good list of js/jQuery things I need to work on. Learning experience.
+
 
 $(document).ready(function() {
 
